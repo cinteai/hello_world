@@ -1,0 +1,38 @@
+# === Java build ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Maven / Gradle ===
+target/
+build/
+out/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# === VS Code ===
+.vscode/
+
+# === Logs & temp ===
+*.log
+*.tmp
+*.swp
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Test reports ===
+surefire-reports/
+test-output/
+
+# === Environment-specific ===
+.env
+.env.*
